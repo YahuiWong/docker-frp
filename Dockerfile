@@ -3,7 +3,7 @@ MAINTAINER thanos_me <thanosme@totallynoob.com>
 
 ENV FRPS_VERSION  "0.21.0"
 ENV FRP_PLATFORM amd64
-ENV FRP_MODE s
+ENV FRP_MODE c
 RUN apk add --no-cache --update wget \
  && wget --no-check-certificate https://github.com/fatedier/frp/releases/download/v${FRPS_VERSION}/frp_${FRPS_VERSION}_linux_${FRP_PLATFORM}.tar.gz \
  && tar zxvf frp_${FRPS_VERSION}_linux_${FRP_PLATFORM}.tar.gz \
