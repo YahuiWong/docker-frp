@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER thanos_me <thanosme@totallynoob.com>
 
-ENV FRPS_VERSION  "0.34.2"
+ENV FRPS_VERSION  "0.56.0"
 ENV FRP_PLATFORM amd64
 ENV FRP_MODE s
 RUN apk add --no-cache --update wget \
